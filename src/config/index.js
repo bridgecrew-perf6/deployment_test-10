@@ -8,13 +8,13 @@ let config = {
     baseURL:"https://localhost"
 }
 
-// switch (env.toUpperCase()) {
-//     case "STAGE":
-//         config.baseURL="https://stage.skillsunion.com"
-//         break;
-//     case "PRODUCTION":
-//         config.baseURL="https://skillsunion.com"
-//         break;
-// }
+switch (env.toUpperCase()) {
+    case "STAGE":
+        config.baseURL="https://stage.skillsunion.com"
+        break;
+    case "PRODUCTION":
+        config.baseURL="https://skillsunion.com"
+        break;
+}
 
 export default config;
